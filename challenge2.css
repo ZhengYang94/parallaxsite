@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#container {
+
+    width: 4500px;
+    height: 3000px;
+    border: 3px solid black;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+#layerZero {
+    background-image: url(day7_challenge/img/image.jpg);
+    height: 3000px;
+    width: 5000px;
+    position: absolute;
+    left: -100;
+    top: -200;
+    z-index: 4;
+}
+
+#layerOne {
+    background-image: url(day7_challenge/img/mountain3.png);
+    height: 1200px;
+    width: 3000px;
+    position: absolute;
+    left: 1500;
+    top: 1200;
+    z-index: 5;
+}
+
+#layerTwo {
+    background-image: url(day7_challenge/img/mountain2.png);
+    height: 2000px;
+    width: 4500px;
+    position: absolute;
+    left: 800;
+    top: 1000;
+    z-index: 6;
+}
+
+#layerThree {
+    background-image: url(day7_challenge/img/mountain1.png);
+    height: 2000px;
+    width: 5000px;
+    position: absolute;
+    left: 0;
+    top: 1800;
+    z-index: 7;
+}
+
+#layerFour {
+    background-image: url(day7_challenge/img/person.png);
+    height: 2000px;
+    width: 4700px;
+    position: absolute;
+    left: 200;
+    top: 1300;
+    z-index: 7;
+    background-repeat: no-repeat;
+    background-size: 5000px;
+}
+

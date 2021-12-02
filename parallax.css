@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    height: 500px;
+    width: 1200px;
+    border: 2px solid black;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    background-color: skyblue;
+}
+
+#onion {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#layerOne {
+    background-image: url(images/landscape_layer_1.png);
+    height: 500px;
+    width: 1200px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 10;
+}
+
+#layerTwo {
+    background-image: url(images/landscape_layer_2.png);
+    height: 500px;
+    width: 1200px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 9;
+}
+
+#layerThree {
+    background-image: url(images/landscape_layer_3.png);
+    height: 500px;
+    width: 1200px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 8;
+}
+
+#layerFour {
+    background-image: url(images/landscape_layer_4.png);
+    height: 500px;
+    width: 1200px;
+    position: absolute;
+    left: 0;
+    top: -200px;
+    z-index: 7;
+
+}

@@ -10,7 +10,7 @@ var layerFour = document.getElementById('layerSix');
 var mouseX = 0;
 var mouseY = 0;
 
-var centerScreen = (3000 / 2) - (3000 / 2) ;
+var centerScreen = (1800 / 2) - (1800 / 2) ;
 
 window.addEventListener("mousemove", onMouseMove);
 
